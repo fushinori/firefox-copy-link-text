@@ -1,6 +1,6 @@
 const links = document.getElementsByTagName("a");
 
-for (link of links) {
+for (const link of links) {
   link.addEventListener("dblclick", onDoubleClick);
 }
 
