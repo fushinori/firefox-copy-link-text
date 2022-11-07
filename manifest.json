@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Copy link text",
+  "version": "0.1",
+  "description": "Lets you copy the link text when you double click on a link",
+  "icons": {
+    "48": "icons/icon-48.png",
+    "96": "icons/icon-96.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["copy_link_text.js"]
+    }
+  ]
+}
